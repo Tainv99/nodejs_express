@@ -16,14 +16,20 @@
   "license": "ISC",
   "author": "tainv",
   "type": "commonjs",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "start": "nodemon --inspect index.js",
+    "start": "nodemon --inspect src/index.js",
+    "watch": "sass --watch src/resource/scss:src/public/css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
     "morgan": "^1.10.0",
     "nodemon": "^3.1.9"
+  },
+  "devDependencies": {
+    "node-sass": "^9.0.0",
+    "sass": "^1.86.0"
   }
 }

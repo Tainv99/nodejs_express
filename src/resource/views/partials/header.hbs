@@ -1,0 +1,46 @@
+<body class="bg-gray-100">
+
+  <nav class="bg-blue-600 text-white shadow-md">
+    <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+      <!-- Logo -->
+      <a href="#" class="text-xl font-bold">MyBrand</a>
+
+      <!-- Menu trên Desktop -->
+      <ul class="hidden md:flex space-x-6">
+        <li><a href="#" class="hover:text-gray-200">Home</a></li>
+        <li><a href="#" class="hover:text-gray-200">About</a></li>
+        <li><a href="#" class="hover:text-gray-200">Services</a></li>
+        <li><a href="#" class="hover:text-gray-200">Contact</a></li>
+      </ul>
+
+      <!-- Icon Menu Mobile -->
+      <button id="menu-btn" class="md:hidden">
+        <svg
+          id="menu-icon"
+          class="w-6 h-6"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M4 6h16M4 12h16m-7 6h7"
+          />
+        </svg>
+      </button>
+    </div>
+
+    <!-- Dropdown Mobile -->
+    <div id="mobile-menu" class="hidden md:hidden bg-blue-700">
+      <ul class="flex flex-col items-center space-y-4 py-4">
+        <li><a href="#" class="block px-4 py-2">Home</a></li>
+        <li><a href="#" class="block px-4 py-2">About</a></li>
+        <li><a href="#" class="block px-4 py-2">Services</a></li>
+        <li><a href="#" class="block px-4 py-2">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+</body>
